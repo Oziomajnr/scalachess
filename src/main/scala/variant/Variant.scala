@@ -29,6 +29,7 @@ abstract class Variant private[variant] (
   inline def horde         = this == Horde
   inline def racingKings   = this == RacingKings
   inline def crazyhouse    = this == Crazyhouse
+  inline def thaiChess     = this == ThaiChess
 
   inline def exotic = !standard
 
